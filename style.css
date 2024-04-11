@@ -54,8 +54,11 @@ body{
     font-size: 24px;
 }
 
-.apresentacao__links__link{
+.apresentacao__links__link {
     /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -66,4 +69,8 @@ body{
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
+} 
+/* Utilizando o hover somos capazes de selecionar e estilizar o link quando o mouse estiver por cima dele.*/
+.apresentacao__links__link:hover {
+    background-color: #272727;
 }
